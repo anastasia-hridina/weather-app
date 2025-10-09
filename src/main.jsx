@@ -26,9 +26,11 @@ const router = createBrowserRouter([
                 path: '/weather-map',
                 lazy: () => import('./layout/WeatherMap.jsx')
             }
-        ]
+        ],
     }
-])
+],
+    { basename: "/weather-app" }
+)
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
