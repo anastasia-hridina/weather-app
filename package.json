@@ -1,6 +1,6 @@
 {
-  "homepage": "https://anastasia-hridina.github.io/final-project",
-  "name": "final-project",
+  "homepage": "https://anastasia-hridina.github.io/weather-app/",
+  "name": "weather-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,8 +9,7 @@
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "homepage": "https://anastasia-hridina.github.io/weather-app"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
