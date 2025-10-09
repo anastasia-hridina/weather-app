@@ -17,7 +17,7 @@ const apiKey = import.meta.env.VITE_APP_API_KEY;
 const position = [50.450, 30.523];
 const tileLayerUrl = `https://tile.openweathermap.org/map/temp_new/{z}/{x}/{y}.png?appid=${apiKey}`;
 
-const ForecastMap = () => {
+function ForecastMap() {
     return (
         <div className='map-container z-0 w-full p-4 pt-2'>
             <h2 className='text-3xl font-bold pb-3 text-[#76AED5]'>Global Weather Map</h2>
