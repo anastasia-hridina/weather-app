@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/open-sans-v36-latin-300.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/open-sans-v36-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/open-sans-v36-latin-500.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/open-sans-v36-latin-600.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/open-sans-v36-latin-700.woff2') format('woff2');
+}
+
+.nav-active {
+    @apply text-cyan-700 hover:text-cyan-700 bg-white rounded-l-2xl p-1 ml-1 max-[992px]:rounded-2xl max-[992px]:bg-transparent;
+}
+
+/* sizing of map container */
+.leaflet-container {
+    height: 100vh;
+    width: 100%;
+}
