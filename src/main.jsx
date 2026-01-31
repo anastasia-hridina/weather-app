@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 import './index.css';
-import { createHashRouter } from 'react-router-dom';
+import { RouterProvider, createHashRouter } from 'react-router-dom';
 
 
 const router = createHashRouter([
@@ -15,22 +15,20 @@ const router = createHashRouter([
                 lazy: () => import('./layout/WeatherStart.jsx')
             },
             {
-                path: '/weather-forecast',
+                path: 'weather-forecast',
                 lazy: () => import('./layout/WeatherMain.jsx')
             },
             {
-                path: '/weather-cities',
+                path: 'weather-cities',
                 lazy: () => import('./layout/WeatherCities.jsx')
             },
             {
-                path: '/weather-map',
+                path: 'weather-map',
                 lazy: () => import('./layout/WeatherMap.jsx')
             }
         ],
     }
-],
-    { basename: "/weather-app" }
-)
+]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>

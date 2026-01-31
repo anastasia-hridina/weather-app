@@ -47,7 +47,7 @@ function WeatherMain() {
     }
 
     return (
-        <section className="flex gap-5 max-w-[1400px] mx-auto p-5 max-[992px]:flex-col max-[992px]:mb-20">
+        <section className="flex justify-center gap-5 max-w-[1400px] mx-auto p-5 ml-5 mr-5 max-[992px]:flex-col max-[992px]:mb-20 max-[992px]:px-0">
             <SideNavigation />
 
             <div className=" w-[55%] h-full max-[992px]:w-full">
