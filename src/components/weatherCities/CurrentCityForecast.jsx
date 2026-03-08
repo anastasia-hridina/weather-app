@@ -16,9 +16,7 @@ function CurrentCityForecast({ weather: { name, country, description, icon, temp
                 </div>
                 <img className='w-28' src={iconUrlFromCode(icon)} alt="" />
             </div>
-            <div className='my-8 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-300 to-transparent opacity-20 dark:opacity-100'></div>
-
-
+            <div className='my-8 h-px border-t-0 bg-neutral-200'></div>
         </div>
 
     );

@@ -22,7 +22,7 @@ function TodaysForecastCities({ title, items }) {
                     )
                 })}
             </div>
-            <div className='my-6 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-300 to-transparent opacity-20 dark:opacity-100'></div>
+            <div className='my-6 h-px border-t-0 bg-neutral-200'></div>
         </div>
     );
 }
